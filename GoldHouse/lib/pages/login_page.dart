@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                             onTap: (){Navigator.pushNamed(context, '/register');},
                             child: Text('註冊帳號',style: TextStyle(color: Color(0xFF613F26)),),),
                             GestureDetector(
-                            onTap: (){},
+                            onTap: (){Navigator.pushNamed(context, '/forgetpw');},
                             child: Text('忘記密碼?',style: TextStyle(color: Color(0xFF613F26)),),),                            
                           ],
                         ),
